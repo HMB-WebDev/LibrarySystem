@@ -1,0 +1,15 @@
+﻿Dear ,
+
+1- Create DB for library system content books information and author (organize the tables as you think it's appropriate)
+
+2- Use two methods of retrieving data from database using entity framework and stored procedure
+
+3- Create page with two dropdown list , one list is filter by the second one like (main category of the book and the subcategory of the book)
+
+4- Provide API to let other developers to access your data
+
+5- Call external API like stackoverflow and display the data in view (two pages , one to show list of last 50 questions , second one for showing details of question that user click on it from the list)
+
+6- Do something with vanilla JS
+
+upload your code to Github and send me the link, make sure it's public
