@@ -19,6 +19,45 @@ namespace LibrarySystem.Services
             _dbContext = dbContext;
         }
 
+        public bool AddNewBook(AddBookDto book)
+        {
+            try
+            {
+                Book newBook = new Book
+                {
+                    Title = book.Title,
+                    Description = book.Description,
+                    Isbn = book.Isbn,
+                    PageCount = book.PageCount,
+                    PublishDate = book.PublishDate,
+                    Publisher = book.Publisher,
+                    Location = book.Location,
+                };
+                _dbContext.Books.Add(newBook);
+                _dbContext.SaveChanges();
+                return true;
+            }
+            catch (Exception ex)
+            {
+                return false;
+            }
+        }
+
+        public async Task<List<BookDto>> GetBooks()
+        {
+            List<BookDto> books = await _dbContext.Books.Select(bo=>new BookDto
+            {
+                Title= bo.Title,
+                Description= bo.Description,
+                Isbn=bo.Isbn,
+                PublishDate=bo.PublishDate,
+                Publisher=bo.Publisher,
+                Status=bo.Status,
+                Location=bo.Location
+            }).ToListAsync();
+            return books;
+        }
+
         public List<CategoryDto> GetCategories()
         {
             List<CategoryDto> categories = _dbContext.Categories.Where(c=>c.MainCategory == null).Select(c=> new CategoryDto {Id= c.CategoryId,Name= c.Name}).ToList();

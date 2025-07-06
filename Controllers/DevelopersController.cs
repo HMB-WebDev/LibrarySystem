@@ -1,4 +1,10 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using LibrarySystem.Contracts;
+using LibrarySystem.Models;
+using LibrarySystem.Models.DomainModels;
+using LibrarySystem.Models.DTOs;
+using Microsoft.AspNetCore.Mvc;
+using System.Net;
+using System.Threading.Tasks;
 
 // For more information on enabling Web API for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
 
@@ -8,11 +14,17 @@ namespace LibrarySystem.Controllers
     [ApiController]
     public class DevelopersController : ControllerBase
     {
-        // GET: api/<DevelopersController>
-        [HttpGet]
-        public IEnumerable<string> Get()
+        private IRepository _repository;
+        public DevelopersController(IRepository repository) 
         {
-            return new string[] { "value1", "value2" };
+           _repository = repository;
+        }
+        // GET: api/<DevelopersController>
+        [HttpGet("getallbooks")]
+        public async Task<ActionResult<IEnumerable<BookDto>>> GetBooks()
+        {
+            List<BookDto> books = await _repository.GetBooks();
+            return Ok(books);
         }
 
         // GET api/<DevelopersController>/5
@@ -23,21 +35,18 @@ namespace LibrarySystem.Controllers
         }
 
         // POST api/<DevelopersController>
-        [HttpPost]
-        public void Post([FromBody] string value)
+        [HttpPost("addbook")]
+        public ActionResult AddBook([FromBody] AddBookDto book)
         {
+            if (book == null) return BadRequest("No data provided");
+            if (!ModelState.IsValid)
+            {
+                return BadRequest(ModelState);
+            }
+            bool result = _repository.AddNewBook(book);
+            if (!result) return StatusCode((int) HttpStatusCode.InternalServerError);
+            return Ok();
         }
 
-        // PUT api/<DevelopersController>/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
-        {
-        }
-
-        // DELETE api/<DevelopersController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
     }
 }
