@@ -2,5 +2,6 @@
 {
     public interface IServices
     {
+        Task<string> GetSOFQuestions();
     }
 }

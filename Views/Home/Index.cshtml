@@ -31,4 +31,17 @@
     <button type="submit" class="btn btn-primary">Submit</button>
 </form>
 
+<div>
+    <h4>Stack Overflow Questions</h4>
+    <a href="\home\getsoquestions">Visit Page</a>
+</div>
+
+<script>
+    const call= async ()=>{
+        await fetch("https://api.stackexchange.com/2.3/questions?order=desc&sort=activity&site=stackoverflow")
+            .then(resp=> resp.json())
+            .then(da=>console.log(da));
+    }
+    call;
+</script>
 <script src="./js/site.js" type="text/javascript" ></<script>

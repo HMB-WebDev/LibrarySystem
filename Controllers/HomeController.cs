@@ -1,4 +1,5 @@
 using System.Diagnostics;
+using System.Threading.Tasks;
 using LibrarySystem.Contracts;
 using LibrarySystem.Models;
 using LibrarySystem.Models.DTOs;
@@ -11,11 +12,13 @@ namespace LibrarySystem.Controllers
     {
         private readonly ILogger<HomeController> _logger;
         private readonly IRepository _repository;
+        private readonly IServices _services;
 
-        public HomeController(ILogger<HomeController> logger,IRepository repository)
+        public HomeController(ILogger<HomeController> logger,IRepository repository, IServices services)
         {
             _logger = logger;
             _repository = repository;
+            _services = services;
         }
 
         public IActionResult Index()
@@ -34,6 +37,13 @@ namespace LibrarySystem.Controllers
         public IActionResult Privacy()
         {
             return View();
+        }
+
+        public async Task<IActionResult> GetSoQuestions()
+        {
+            string data = await _services.GetSOFQuestions();
+            ViewBag.Questions = data;
+            return View("StackOverflowQuestions","");
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

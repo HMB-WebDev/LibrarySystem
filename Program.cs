@@ -14,7 +14,8 @@ namespace LibrarySystem
             // Add services to the container.
             builder.Services.AddDbContext<LibrarySystemContext>(op => op.UseSqlServer(builder.Configuration.GetConnectionString("SqlConnection")));
             builder.Services.AddScoped<IRepository, Repository>();  
-            builder.Services.AddScoped<IServices, LibrarySystem.Services.Services>();  
+            builder.Services.AddScoped<IServices, LibrarySystem.Services.Services>();
+            builder.Services.AddHttpClient();
             builder.Services.AddControllersWithViews();
 
 
