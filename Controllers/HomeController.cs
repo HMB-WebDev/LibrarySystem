@@ -1,4 +1,6 @@
 using System.Diagnostics;
+using System.Text.Json;
+using System.Text.Json.Nodes;
 using System.Threading.Tasks;
 using LibrarySystem.Contracts;
 using LibrarySystem.Models;
@@ -44,6 +46,17 @@ namespace LibrarySystem.Controllers
             string data = await _services.GetSOFQuestions();
             ViewBag.Questions = data;
             return View("StackOverflowQuestions","");
+        }
+
+        public async Task<IActionResult> GetSoAnswers([FromQuery] int qid, [FromQuery] string title)
+        {
+            string data = await _services.GetSOFAnswerss(qid);
+            JsonNode dydata= JsonSerializer.Deserialize<JsonNode>(data,new JsonSerializerOptions{
+                PropertyNamingPolicy = JsonNamingPolicy.CamelCase,
+            });
+            ViewBag.Answers = data;
+            ViewBag.QTitle = title;
+            return View("StackOverflowAnswers", dydata);
         }
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]

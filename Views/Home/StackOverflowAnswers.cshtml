@@ -1,0 +1,34 @@
+﻿@using System.Text.Json.Nodes
+@model JsonNode
+@{
+    ViewData["Title"] = "Stack Overflow Answers";
+}
+
+<h2 class="my-2">Answers of: <span id="q_title" class="fst-italic"></span></h2>
+<div id="answers-container">
+    @if (Model["items"].AsArray().Count==0)
+    {
+        <div class="my-5">
+            <p class="">No answers for this question.</p>
+        </div>
+    }
+    @for (int i=0; i< Model["items"].AsArray().Count;i++)
+    {
+        bool parseDateTime = int.TryParse(Model["items"][i]["creation_date"].ToString(), out int parsed);
+
+            <p>Score: @Model["items"][i]["score"].ToString()</p>
+        <div class="p-2 mb-5 shadow border border-secondary rounded" style="background-color:#dff2f6">
+            <p class="fw-bold">On @DateTimeOffset.FromUnixTimeSeconds(parsed), @Model["items"][i]["owner"]["display_name"] answered:</p>
+            <div class=" my-2 p-2 ">
+                @Html.Raw(Model["items"][i]["body"].ToString())
+            </div>
+         </div>
+    }
+</div>
+
+<script>
+    var data= @Html.Raw(ViewBag.Answers);
+    console.log(data);
+    var qtitle= document.getElementById("q_title");
+    qtitle.innerText="@ViewBag.QTitle";
+</script>

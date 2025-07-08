@@ -3,28 +3,36 @@
   "WorkspaceRootPath": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\views\\home\\stackoverflowanswers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:views\\home\\stackoverflowanswers.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\views\\home\\stackoverflowquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:views\\home\\stackoverflowquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:services\\services.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\contracts\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:contracts\\iservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\views\\home\\stackoverflowquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:views\\home\\stackoverflowquestions.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{28A05D0C-005C-4F6E-B374-217215182169}|LibrarySystem.csproj|c:\\users\\habalh\\source\\repos\\librarysystem\\ropo\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -86,72 +94,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "StackOverflowAnswers.cshtml",
+              "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\StackOverflowAnswers.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\StackOverflowAnswers.cshtml",
+              "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\StackOverflowAnswers.cshtml",
+              "RelativeToolTip": "Views\\Home\\StackOverflowAnswers.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAALAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-07-08T07:32:52.051Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAlwHIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-07-07T10:15:37.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
               "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAACwAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACMAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-07T06:24:58.223Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "HomeController.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
               "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Controllers\\HomeController.cs",
               "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAABQAAAAAAAAAAAAgwCoAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAABAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T06:20:45.211Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "StackOverflowQuestions.cshtml",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\StackOverflowQuestions.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\StackOverflowQuestions.cshtml",
               "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Views\\Home\\StackOverflowQuestions.cshtml",
               "RelativeToolTip": "Views\\Home\\StackOverflowQuestions.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-07-07T06:15:14.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "Services.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Services\\Services.cs",
               "RelativeDocumentMoniker": "Services\\Services.cs",
               "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Services\\Services.cs",
               "RelativeToolTip": "Services\\Services.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAArAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T06:05:26.87Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "IServices.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Contracts\\IServices.cs",
               "RelativeDocumentMoniker": "Contracts\\IServices.cs",
               "ToolTip": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Contracts\\IServices.cs",
               "RelativeToolTip": "Contracts\\IServices.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-07T05:37:39.754Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "AddBookDto.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Models\\DTOs\\AddBookDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\AddBookDto.cs",
@@ -163,7 +197,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "BookDto.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Models\\DTOs\\BookDto.cs",
               "RelativeDocumentMoniker": "Models\\DTOs\\BookDto.cs",
@@ -175,7 +209,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "IRepository.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Contracts\\IRepository.cs",
               "RelativeDocumentMoniker": "Contracts\\IRepository.cs",
@@ -183,12 +217,11 @@
               "RelativeToolTip": "Contracts\\IRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAiAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-06T12:06:43.561Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T12:06:43.561Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "Repository.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Services\\Repository.cs",
               "RelativeDocumentMoniker": "Services\\Repository.cs",
@@ -200,7 +233,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "DevelopersController.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Controllers\\DevelopersController.cs",
               "RelativeDocumentMoniker": "Controllers\\DevelopersController.cs",
@@ -212,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Requirements.txt",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Requirements.txt",
               "RelativeDocumentMoniker": "Requirements.txt",
@@ -220,12 +253,11 @@
               "RelativeToolTip": "Requirements.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAABPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-07-06T05:36:43.213Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-06T05:36:43.213Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "ErrorViewModel.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
@@ -233,12 +265,11 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T10:58:54.224Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T10:58:54.224Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 7,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\habalh\\source\\repos\\LibrarySystem\\Ropo\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
@@ -246,8 +277,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-03T06:19:22.56Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-03T06:19:22.56Z"
             }
           ]
         }
